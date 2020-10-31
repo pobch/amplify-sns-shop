@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "amplifysnsshop",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authamplifysnsshop3e89ff97",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
